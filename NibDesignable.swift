@@ -77,7 +77,7 @@ extension NibDesignableProtocol {
 }
 
 extension UIView {
-    public var nibContainerView: UIView {
+    @objc public var nibContainerView: UIView {
         return self
     }
     /**
