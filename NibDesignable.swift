@@ -113,7 +113,7 @@ open class NibDesignableTableViewCell: UITableViewCell, NibDesignableProtocol {
     }
 
     // MARK: - Initializer
-    override public init(style: UITableView.CellStyle, reuseIdentifier: String?) {
+    override public init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.setupNib()
     }
